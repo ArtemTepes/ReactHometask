@@ -22,6 +22,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+}
+
+.todo-item-desc{
+  margin-top: 5px;
+  padding-left: 5px;
+  border-top: solid 0.05em;
 }
 
 .todo-form {
@@ -37,4 +44,10 @@
 }
 .todo-form-actions {
   flex: 0!important;
+}
+
+.todo-numberUnchecked
+{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium';
 }
